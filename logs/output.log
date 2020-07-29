@@ -1,0 +1,132 @@
+2019-05-15 09:25:23 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-15 09:25:23 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-15 09:25:23 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-15 09:25:23 - INFO - kerberos_auth - Auth Success
+2019-05-15 09:25:23 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 09:25:31 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-15 09:25:31 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-15 09:25:31 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM ctr_comp_prod.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 09:25:46 - INFO - last_ingestion() - Success
+2019-05-15 09:25:46 - ERROR - Checking precedence - NOK - 'ctr_comp_prod.ctr_comp_indicadores' was ingested 11 days ago
+2019-05-15 09:26:59 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-15 09:26:59 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-15 09:26:59 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-15 09:26:59 - INFO - kerberos_auth - Auth Success
+2019-05-15 09:26:59 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 09:27:06 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-15 09:27:06 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-15 09:27:06 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM ctr_comp_prod.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 09:27:19 - INFO - last_ingestion() - Success
+2019-05-15 09:27:19 - ERROR - Checking precedence - NOK - 'ctr_comp_prod.ctr_comp_indicadores' was ingested 11 days ago
+2019-05-15 11:14:21 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-15 11:14:21 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-15 11:14:21 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-15 11:14:21 - INFO - kerberos_auth - Auth Success
+2019-05-15 11:14:21 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 11:14:29 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-15 11:14:29 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-15 11:14:29 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM ctr_comp_prod.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 11:46:33 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-15 11:46:33 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-15 11:46:33 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-15 11:46:33 - INFO - kerberos_auth - Auth Success
+2019-05-15 11:46:33 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 11:46:41 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-15 11:46:41 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-15 11:46:41 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM ctr_comp_prod.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 11:46:55 - INFO - last_ingestion() - Success
+2019-05-15 11:46:55 - ERROR - Checking precedence - NOK - 'ctr_comp_prod.ctr_comp_indicadores' was ingested 11 days ago
+2019-05-15 14:55:31 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-15 14:55:31 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-15 14:55:31 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-15 14:55:31 - INFO - kerberos_auth - Auth Success
+2019-05-15 14:55:31 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 14:55:37 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-15 14:55:37 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-15 14:55:37 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM ctr_comp_prod.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 14:55:51 - INFO - last_ingestion() - Success
+2019-05-15 14:55:51 - ERROR - Checking precedence - NOK - 'ctr_comp_prod.ctr_comp_indicadores' was ingested 4 days ago
+2019-05-15 15:09:58 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-15 15:09:58 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': False, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-15 15:09:58 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-15 15:09:58 - INFO - kerberos_auth - Auth Success
+2019-05-15 15:09:58 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 15:10:04 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-15 15:10:04 - INFO - Not checking precedence
+2019-05-15 15:10:04 - INFO - execute_ctr_score_flow_plus - Executing '/usr/bin/Rscript /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/r_script/ctr_score_flow_plus.r 20190511 /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/data ctr_comp_prod 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/r_script.log >> /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/r_script.log '
+2019-05-15 15:18:04 - INFO - execute_ctr_score_flow_plus - Success
+2019-05-15 15:18:04 - INFO - create_hdfs_location - Executing 'hadoop fs -mkdir -p /user/cluster_name/ops/comp/country/score_flow_plus/data/archive=20190511'
+2019-05-15 15:18:07 - INFO - create_hdfs_location - Success
+2019-05-15 15:18:07 - INFO - load_csv_file - Executing 'hadoop fs -copyFromLocal -f /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/data/score_flow_plus_20190511.csv /user/cluster_name/ops/comp/country/score_flow_plus/data/archive=20190511'
+2019-05-15 15:18:17 - INFO - load_csv_file - Load csv file to ops location Success
+2019-05-15 15:18:17 - INFO - create_hive_table(ops_score_flow_plus_table_atr) - Executing 'beeline -u 'jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM' -f /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/hqls/ops_score_flow_plus_table_atr.sql --hivevar DEST_DB=ops --hivevar LOCATION=/user/cluster_name/ops/comp/country/score_flow_plus/data/archive=20190511 >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 15:18:25 - INFO - create_hive_table(ops_score_flow_plus_table_atr) - Success
+2019-05-15 15:18:25 - INFO - create_hive_table(staging_score_flow_plus_table_atr) - Executing 'beeline -u 'jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM' -f /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/hqls/staging_score_flow_plus_table_atr.sql --hivevar SOURCE_DB=ops --hivevar DEST_DB=staging --hivevar ARCHV=20190511 >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 15:19:37 - INFO - create_hive_table(staging_score_flow_plus_table_atr) - Success
+2019-05-15 15:19:37 - INFO - purge_table - Not partitioned table - moving 'ctr_comp_prod.ctr_comp_score_flow_plus_atr' data to purge zone
+2019-05-15 15:19:37 - INFO - Creating purge destination in HDFS - hadoop fs -mkdir -p /user/cluster_name/production/comp/country/score_flow/purge/archive=20190511/ctr_comp_score_flow_plus_atr/current/
+2019-05-15 15:19:40 - INFO - hadoop_execute - Executing 'hadoop fs -mv /user/cluster_name/production/comp/country/score_flow/ctr_comp_score_flow_plus_atr/current/data/ /user/cluster_name/production/comp/country/score_flow/purge/archive=20190511/ctr_comp_score_flow_plus_atr/current/'
+2019-05-15 15:19:44 - WARNING - hadoop_execute - 'hadoop fs -mv' - mv: `/user/cluster_name/production/comp/country/score_flow/purge/archive=20190511/ctr_comp_score_flow_plus_atr/current/': No such file or directory
+2019-05-15 15:19:44 - INFO - create_hive_table(prod_score_flow_plus_table_atr) - Executing 'beeline -u 'jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM' -f /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/hqls/prod_score_flow_plus_table_atr.sql --hivevar SOURCE_DB=staging --hivevar DEST_DB=ctr_comp_prod --hivevar ARCHV=20190511 >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 15:19:51 - ERROR - create_hive_table(prod_score_flow_plus_table_atr) - BEELINE ERROR -
+2019-05-15 15:19:51 - ERROR - create_hive_table - Cannot create_hive_table(prod_score_flow_plus_table_atr) - End execution
+2019-05-15 15:25:55 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-15 15:25:55 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-15 15:25:55 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-15 15:25:55 - INFO - kerberos_auth - Auth Success
+2019-05-15 15:25:55 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 15:26:03 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-15 15:26:03 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-15 15:26:03 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM ctr_comp_prod.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-15 15:26:15 - INFO - last_ingestion() - Success
+2019-05-15 15:26:15 - ERROR - Checking precedence - NOK - 'ctr_comp_prod.ctr_comp_indicadores' was ingested 4 days ago
+2019-05-16 14:57:18 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-16 14:57:18 - INFO - {'prod_db': 'prod_dev', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops_dev', 'smail': False, 'env': 'dev', 'staging_db': 'staging_dev', 'archive': 20190511, 'prodHDFS': 'prod_dev', 'first': False}
+2019-05-16 14:57:18 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/ktab/dna-cb-apu-sys_prod.keytab'
+2019-05-16 14:57:19 - ERROR - kerberos_auth - kinit: Realm not local to KDC while getting initial credentials
+2019-05-16 14:57:19 - ERROR - kerberos_auth - Cannot authenticate - End execution
+2019-05-16 15:00:29 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-16 15:00:29 - INFO - {'prod_db': 'prod_dev', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops_dev', 'smail': False, 'env': 'dev', 'staging_db': 'staging_dev', 'archive': 20190511, 'prodHDFS': 'prod_dev', 'first': False}
+2019-05-16 15:00:29 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/ktab/dna-cb-apu-sys_prod.keytab'
+2019-05-16 15:00:30 - ERROR - kerberos_auth - kinit: Realm not local to KDC while getting initial credentials
+2019-05-16 15:00:30 - ERROR - kerberos_auth - Cannot authenticate - End execution
+2019-05-16 15:03:18 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-16 15:03:18 - INFO - {'prod_db': 'prod_dev', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops_dev', 'smail': False, 'env': 'dev', 'staging_db': 'staging_dev', 'archive': 20190511, 'prodHDFS': 'prod_dev', 'first': False}
+2019-05-16 15:03:18 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-16 15:03:18 - INFO - kerberos_auth - Auth Success
+2019-05-16 15:03:18 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata prod_dev.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:03:26 - INFO - invalidate_metadata - invalidate_metadata(prod_dev.ctr_comp_indicadores) Success
+2019-05-16 15:03:26 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-16 15:03:26 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM prod_dev.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:03:40 - INFO - last_ingestion() - Success
+2019-05-16 15:03:40 - ERROR - Checking precedence - NOK - 'prod_dev.ctr_comp_indicadores' was ingested 12 days ago
+2019-05-16 15:04:23 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-16 15:04:23 - INFO - {'prod_db': 'prod_dev', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops_dev', 'smail': False, 'env': 'dev', 'staging_db': 'staging_dev', 'archive': 20190511, 'prodHDFS': 'prod_dev', 'first': False}
+2019-05-16 15:04:23 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-16 15:04:23 - INFO - kerberos_auth - Auth Success
+2019-05-16 15:04:23 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata prod_dev.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:04:30 - INFO - invalidate_metadata - invalidate_metadata(prod_dev.ctr_comp_indicadores) Success
+2019-05-16 15:04:30 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-16 15:04:30 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM prod_dev.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:04:42 - INFO - last_ingestion() - Success
+2019-05-16 15:04:42 - ERROR - Checking precedence - NOK - 'prod_dev.ctr_comp_indicadores' was ingested 12 days ago
+2019-05-16 15:06:01 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-16 15:06:01 - INFO - {'prod_db': 'prod_dev', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops_dev', 'smail': False, 'env': 'dev', 'staging_db': 'staging_dev', 'archive': 20190511, 'prodHDFS': 'prod_dev', 'first': False}
+2019-05-16 15:06:01 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-16 15:06:01 - INFO - kerberos_auth - Auth Success
+2019-05-16 15:06:01 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata prod_dev.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:06:08 - INFO - invalidate_metadata - invalidate_metadata(prod_dev.ctr_comp_indicadores) Success
+2019-05-16 15:06:08 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-16 15:06:08 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM prod_dev.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:06:20 - INFO - last_ingestion() - Success
+2019-05-16 15:06:20 - ERROR - Checking precedence - NOK - 'prod_dev.ctr_comp_indicadores' was ingested 12 days ago
+2019-05-16 15:10:01 - INFO - #------------------------------- SCORE flow (+) - START - ARCHIVE=20190511 -------------------------------#
+2019-05-16 15:10:01 - INFO - {'prod_db': 'ctr_comp_prod', 'verbose': True, 'precedence': True, 'notification_list': ['facundo.radrizzani@company.com'], 'r_script': 'ctr_score_flow_plus.r', 'ops_db': 'ops', 'smail': False, 'env': 'prod', 'staging_db': 'staging', 'archive': 20190511, 'prodHDFS': 'production', 'first': False}
+2019-05-16 15:10:01 - INFO - kerberos_auth - Executing 'kinit dna-cb-apu-sys_prod@ERS.company.COM -k -t /export/home/dna-cb-apu-sys_prod/dna-cb-apu-sys_prod.keytab'
+2019-05-16 15:10:01 - INFO - kerberos_auth - Auth Success
+2019-05-16 15:10:01 - INFO - invalidate_metadata - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' -e 'invalidate metadata ctr_comp_prod.ctr_comp_indicadores;' >>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.log 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:10:10 - INFO - invalidate_metadata - invalidate_metadata(ctr_comp_prod.ctr_comp_indicadores) Success
+2019-05-16 15:10:10 - INFO - Checking precedence - last time ctr_comp_indicadores was ingested?
+2019-05-16 15:10:10 - INFO - last_ingestion - Executing 'beeline -u 'jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM' --showHeader=false --outputformat=dsv --silent=true -e 'SELECT fecha_obs FROM ctr_comp_prod.ctr_comp_indicadores LIMIT 1;' 2>>/export/home/dna-cb-apu-sys_prod/APU_SCRIPTS/score_flow_plus/logs/beeline.err'
+2019-05-16 15:10:24 - INFO - last_ingestion() - Success
+2019-05-16 15:10:24 - ERROR - Checking precedence - NOK - 'ctr_comp_prod.ctr_comp_indicadores' was ingested 5 days ago

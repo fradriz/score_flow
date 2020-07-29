@@ -1,0 +1,7 @@
+.idea/
+src/*.egg-info
+*.pyc
+__pycache__/
+.coverage
+notes.md
+data_eng/

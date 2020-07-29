@@ -1,0 +1,162 @@
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 1ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (1.936 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.143 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (2.221 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (2.045 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 1ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.126 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.141 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM
+Connected to: Apache Hive (version 1.1.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.051 seconds)
+No rows affected (0.331 seconds)
+No rows affected (0.609 seconds)
+Closing: 0: jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM
+Connected to: Apache Hive (version 1.1.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.044 seconds)
+No rows affected (0.274 seconds)
+No rows affected (64.761 seconds)
+Closing: 0: jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM
+Connected to: Apache Hive (version 1.1.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.05 seconds)
+Error: Error while compiling statement: FAILED: SemanticException [Error 10001]: Line 1:23 Table not found 'ctr_comp_score_flow_plus_atr' (state=42S02,code=10001)
+Closing: 0: jdbc:hive2://node002.eis.company.com:10000/;principal=hive/_HOST@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (2.016 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (1.896 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.124 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 1ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (0.143 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+scan complete in 2ms
+Connecting to jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Connected to: Impala (version 2.12.0-cdh5.15.1)
+Driver: Hive JDBC (version 1.1.0-cdh5.15.1)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+No rows affected (1.954 seconds)
+Beeline version 1.1.0-cdh5.15.1 by Apache Hive
+Closing: 0: jdbc:hive2://node004.eis.company.com:21050/;principal=impala/node004@EDA.company.COM
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512M; support was removed in 8.0
