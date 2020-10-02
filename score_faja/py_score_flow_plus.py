@@ -5,7 +5,7 @@
 # Script to load Py Score flow Positiva (Plus) data into Hive db        #
 #                                                                       #
 # This program is to automate the ingestion.                            #
-# Developer: Facundo Radrizzani                                         #
+# Developer: Facundo Radrizzani.                                         #
 #########################################################################
 
 import os
